@@ -1,0 +1,14 @@
+# Target labels
+ yaml-cpp-populate
+# Source files and their labels
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate-complete.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-build.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-configure.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-download.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-install.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-mkdir.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-patch.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-test.rule
+F:/LDog/LDog/out/build/x64-Debug/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-update.rule
