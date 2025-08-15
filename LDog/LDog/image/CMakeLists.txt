@@ -17,6 +17,13 @@ add_compile_definitions(OATPP_SWAGGER_RES_PATH="${CMAKE_CURRENT_SOURCE_DIR}/../e
 #此为yaml所需yaml文件宏,若注释将导致yaml工具类报错,若不开启yaml配置则无用
 add_compile_definitions(YAML_CONFIG_FILE_CONNECTION="${CMAKE_CURRENT_SOURCE_DIR}/config/config.yaml")
 
+#定义图片存储目录
+add_compile_definitions(IMAGE_FILE_PATH="F:/ldog_images/images")
+#定义图片临时存储目录
+add_compile_definitions(IMAGE_TEMP_FILE_PATH="F:/ldog_images/temp")
+#定义文件上传信息存储目录
+add_compile_definitions(IMAGE_UPLOAD_INFO_PATH="F:/ldog_images/image_info")
+
 include_directories(../encapsulation
 					../encapsulation/include_all
 					../encapsulation/include_all/mysql
@@ -35,7 +42,8 @@ add_executable (${INFORMATION}
 			   #Service
 			   "Service/imageService.cpp"
 			   #DAO
-			   "DAO/imageDAO.cpp"
+			   "util/imageDAO.cpp"
+			   "util/imageutil.cpp"
 			   
 
 )

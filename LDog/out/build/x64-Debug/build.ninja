@@ -187,7 +187,7 @@ build LDog\encapsulation\rebuild_cache: phony LDog\encapsulation\CMakeFiles\rebu
 build cmake_object_order_depends_target_image: phony || cmake_object_order_depends_target_yaml-cpp
 
 build LDog\image\CMakeFiles\image.dir\image_main.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\image\image_main.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -196,7 +196,7 @@ build LDog\image\CMakeFiles\image.dir\image_main.cpp.obj: CXX_COMPILER__image_un
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\access_token\access_token.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\access_token\access_token.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -205,7 +205,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\access_token\access_token
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\error_p\error_p.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\error_p\error_p.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -214,7 +214,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\error_p\error_p.cpp.obj: 
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\mysql\mysqlc.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\mysql\mysqlc.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -223,7 +223,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\mysql\mysqlc.cpp.obj: CXX
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\nacos\nacos.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\nacos\nacos.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -232,7 +232,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\nacos\nacos.cpp.obj: CXX_
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\oatpp\authorization\authorization.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\oatpp\authorization\authorization.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -241,7 +241,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\oatpp\authorization\autho
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\tool\tool.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\tool\tool.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -250,7 +250,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\tool\tool.cpp.obj: CXX_CO
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\xlnt\xlnt_p.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\xlnt\xlnt_p.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -259,7 +259,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\xlnt\xlnt_p.cpp.obj: CXX_
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\__\encapsulation\yaml\yaml_p.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\encapsulation\yaml\yaml_p.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -268,7 +268,7 @@ build LDog\image\CMakeFiles\image.dir\__\encapsulation\yaml\yaml_p.cpp.obj: CXX_
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\Controller\imageController.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\image\Controller\imageController.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -277,7 +277,7 @@ build LDog\image\CMakeFiles\image.dir\Controller\imageController.cpp.obj: CXX_CO
   TARGET_PDB = LDog\image\image.pdb
 
 build LDog\image\CMakeFiles\image.dir\Service\imageService.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\image\Service\imageService.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
@@ -285,12 +285,21 @@ build LDog\image\CMakeFiles\image.dir\Service\imageService.cpp.obj: CXX_COMPILER
   TARGET_COMPILE_PDB = LDog\image\CMakeFiles\image.dir\
   TARGET_PDB = LDog\image\image.pdb
 
-build LDog\image\CMakeFiles\image.dir\DAO\imageDAO.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\image\DAO\imageDAO.cpp || cmake_object_order_depends_target_image
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+build LDog\image\CMakeFiles\image.dir\util\imageDAO.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\image\util\imageDAO.cpp || cmake_object_order_depends_target_image
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = LDog\image\CMakeFiles\image.dir
-  OBJECT_FILE_DIR = LDog\image\CMakeFiles\image.dir\DAO
+  OBJECT_FILE_DIR = LDog\image\CMakeFiles\image.dir\util
+  TARGET_COMPILE_PDB = LDog\image\CMakeFiles\image.dir\
+  TARGET_PDB = LDog\image\image.pdb
+
+build LDog\image\CMakeFiles\image.dir\util\imageutil.cpp.obj: CXX_COMPILER__image_unscanned_Debug F$:\LDog\LDog\LDog\image\util\imageutil.cpp || cmake_object_order_depends_target_image
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
+  OBJECT_DIR = LDog\image\CMakeFiles\image.dir
+  OBJECT_FILE_DIR = LDog\image\CMakeFiles\image.dir\util
   TARGET_COMPILE_PDB = LDog\image\CMakeFiles\image.dir\
   TARGET_PDB = LDog\image\image.pdb
 
@@ -302,7 +311,7 @@ build LDog\image\CMakeFiles\image.dir\DAO\imageDAO.cpp.obj: CXX_COMPILER__image_
 #############################################
 # Link the executable LDog\image\image.exe
 
-build LDog\image\image.exe: CXX_EXECUTABLE_LINKER__image_Debug LDog\image\CMakeFiles\image.dir\image_main.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\access_token\access_token.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\error_p\error_p.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\mysql\mysqlc.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\nacos\nacos.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\oatpp\authorization\authorization.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\tool\tool.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\xlnt\xlnt_p.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\yaml\yaml_p.cpp.obj LDog\image\CMakeFiles\image.dir\Controller\imageController.cpp.obj LDog\image\CMakeFiles\image.dir\Service\imageService.cpp.obj LDog\image\CMakeFiles\image.dir\DAO\imageDAO.cpp.obj | F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\xlntd.lib F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\mysqlcppconn-static.lib F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\oatpp.lib F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\oatpp-swagger.lib _deps\yaml-cpp-build\yaml-cppd.lib || _deps\yaml-cpp-build\yaml-cppd.lib
+build LDog\image\image.exe: CXX_EXECUTABLE_LINKER__image_Debug LDog\image\CMakeFiles\image.dir\image_main.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\access_token\access_token.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\error_p\error_p.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\mysql\mysqlc.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\nacos\nacos.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\oatpp\authorization\authorization.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\tool\tool.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\xlnt\xlnt_p.cpp.obj LDog\image\CMakeFiles\image.dir\__\encapsulation\yaml\yaml_p.cpp.obj LDog\image\CMakeFiles\image.dir\Controller\imageController.cpp.obj LDog\image\CMakeFiles\image.dir\Service\imageService.cpp.obj LDog\image\CMakeFiles\image.dir\util\imageDAO.cpp.obj LDog\image\CMakeFiles\image.dir\util\imageutil.cpp.obj | F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\xlntd.lib F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\mysqlcppconn-static.lib F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\oatpp.lib F$:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\oatpp-swagger.lib _deps\yaml-cpp-build\yaml-cppd.lib || _deps\yaml-cpp-build\yaml-cppd.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = F:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\xlntd.lib  F:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\mysqlcppconn-static.lib  F:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\oatpp.lib  F:\LDog\LDog\LDog\image\..\encapsulation\lib\windows\debug\oatpp-swagger.lib  _deps\yaml-cpp-build\yaml-cppd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -520,7 +529,7 @@ build _deps\yaml-cpp-build\ContinuousSubmit: phony _deps\yaml-cpp-build\CMakeFil
 build cmake_object_order_depends_target_yaml-cpp: phony || .
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\contrib\graphbuilder.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -529,7 +538,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\contrib\graphbuilderadapter.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -538,7 +547,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapt
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\binary.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\binary.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -547,7 +556,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\binary.cpp.obj: CXX_COMPI
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\convert.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\convert.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -556,7 +565,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\convert.cpp.obj: CXX_COMP
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\depthguard.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -565,7 +574,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.obj: CXX_C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\directives.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\directives.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -574,7 +583,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\directives.cpp.obj: CXX_C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emit.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\emit.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -583,7 +592,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emit.cpp.obj: CXX_COMPILE
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\emitfromevents.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -592,7 +601,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.obj: C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitter.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\emitter.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -601,7 +610,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitter.cpp.obj: CXX_COMP
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\emitterstate.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -610,7 +619,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.obj: CXX
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\emitterutils.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -619,7 +628,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.obj: CXX
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\exceptions.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -628,7 +637,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.obj: CXX_C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\exp.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\exp.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -637,7 +646,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\exp.cpp.obj: CXX_COMPILER
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\memory.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\memory.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -646,7 +655,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\memory.cpp.obj: CXX_COMPI
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\node.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\node.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -655,7 +664,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\node.cpp.obj: CXX_COMPILE
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\node_data.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\node_data.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -664,7 +673,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\node_data.cpp.obj: CXX_CO
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\nodebuilder.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -673,7 +682,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.obj: CXX_
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\nodeevents.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -682,7 +691,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.obj: CXX_C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\null.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\null.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -691,7 +700,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\null.cpp.obj: CXX_COMPILE
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\ostream_wrapper.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -700,7 +709,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.obj: 
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\parse.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\parse.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -709,7 +718,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\parse.cpp.obj: CXX_COMPIL
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\parser.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\parser.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -718,7 +727,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\parser.cpp.obj: CXX_COMPI
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\regex_yaml.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -727,7 +736,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.obj: CXX_C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scanner.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\scanner.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -736,7 +745,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scanner.cpp.obj: CXX_COMP
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\scanscalar.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -745,7 +754,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.obj: CXX_C
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scantag.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\scantag.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -754,7 +763,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scantag.cpp.obj: CXX_COMP
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\scantoken.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -763,7 +772,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.obj: CXX_CO
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\simplekey.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -772,7 +781,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.obj: CXX_CO
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\singledocparser.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -781,7 +790,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.obj: 
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\stream.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\stream.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -790,7 +799,7 @@ build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\stream.cpp.obj: CXX_COMPI
   TARGET_PDB = _deps\yaml-cpp-build\yaml-cppd.pdb
 
 build _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\src\tag.cpp.obj: CXX_COMPILER__yaml-cpp_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src\tag.cpp || cmake_object_order_depends_target_yaml-cpp
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI /W3 /wd4127 /wd4355
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\src
   OBJECT_DIR = _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir
@@ -1092,7 +1101,7 @@ build _deps\yaml-cpp-build\CMakeFiles\format | ${cmake_ninja_workdir}_deps\yaml-
 build cmake_object_order_depends_target_yaml-cpp-sandbox: phony || cmake_object_order_depends_target_yaml-cpp
 
 build _deps\yaml-cpp-build\util\CMakeFiles\yaml-cpp-sandbox.dir\sandbox.cpp.obj: CXX_COMPILER__yaml-cpp-sandbox_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\util\sandbox.cpp || cmake_object_order_depends_target_yaml-cpp-sandbox
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = _deps\yaml-cpp-build\util\CMakeFiles\yaml-cpp-sandbox.dir
@@ -1130,7 +1139,7 @@ build _deps\yaml-cpp-build\util\sandbox.exe: CXX_EXECUTABLE_LINKER__yaml-cpp-san
 build cmake_object_order_depends_target_yaml-cpp-parse: phony || cmake_object_order_depends_target_yaml-cpp
 
 build _deps\yaml-cpp-build\util\CMakeFiles\yaml-cpp-parse.dir\parse.cpp.obj: CXX_COMPILER__yaml-cpp-parse_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\util\parse.cpp || cmake_object_order_depends_target_yaml-cpp-parse
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = _deps\yaml-cpp-build\util\CMakeFiles\yaml-cpp-parse.dir
@@ -1168,7 +1177,7 @@ build _deps\yaml-cpp-build\util\parse.exe: CXX_EXECUTABLE_LINKER__yaml-cpp-parse
 build cmake_object_order_depends_target_yaml-cpp-read: phony || cmake_object_order_depends_target_yaml-cpp
 
 build _deps\yaml-cpp-build\util\CMakeFiles\yaml-cpp-read.dir\read.cpp.obj: CXX_COMPILER__yaml-cpp-read_unscanned_Debug F$:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\util\read.cpp || cmake_object_order_depends_target_yaml-cpp-read
-  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
+  DEFINES = -DASYNC_ENDPOINT -DCPPCONN_PUBLIC_FUNC="" -DIMAGE_FILE_PATH=\"F:/ldog_images/images\" -DIMAGE_TEMP_FILE_PATH=\"F:/ldog_images/temp\" -DIMAGE_UPLOAD_INFO_PATH=\"F:/ldog_images/image_info\" -DOATPP_SWAGGER_ENABLE -DOATPP_SWAGGER_RES_PATH=\"F:/LDog/LDog/LDog/image/../encapsulation\" -DWindows -DYAML_CONFIG_FILE_CONNECTION=\"F:/LDog/LDog/LDog/image/config/config.yaml\"
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   INCLUDES = -IF:\LDog\LDog\LDog\.\encapsulation -IF:\LDog\LDog\LDog\.\encapsulation\include_all -IF:\LDog\LDog\LDog\.\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\.\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\..\encapsulation -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\mysql -IF:\LDog\LDog\LDog\image\..\encapsulation\include_all\oatpp-1.3.0 -IF:\LDog\LDog\LDog\image\.\transmitOBJ -IF:\LDog\LDog\out\build\x64-Debug\_deps\yaml-cpp-src\include
   OBJECT_DIR = _deps\yaml-cpp-build\util\CMakeFiles\yaml-cpp-read.dir

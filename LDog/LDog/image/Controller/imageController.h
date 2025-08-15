@@ -9,10 +9,9 @@
 #include<chrono>
 #include<thread>
 
+#include"../dataobj/obj.h"
 
-
-
-
+#include"../Service/imageService.h"
 
 #include OATPP_CODEGEN_BEGIN(ApiController)
 
@@ -37,18 +36,22 @@ public:
 		}
 	};
 
-	ENDPOINT_ASYNC("POST", "/picture/upload_start", upload_start) {
+	ENDPOINT_ASYNC("POST", "/picture/upload_start", upload_start,
+		BODY_DTO(ImageUploadStart::Wrapper,dd)) {
 		ENDPOINT_ASYNC_INIT(upload_start)
-			Action act()override {
+		Action act()override {
+			return request->readBodyToDtoAsync<ImageUploadStart::Wrapper>
+				(controller->getDefaultObjectMapper())
+				.callbackTo(&upload_start::onBodyObtained);
+		}
 
-			return this->_return(
-				ResponseFactory::createResponse(Status::CODE_200, "File uploaded successfully")
-			);
+		Action onBodyObtained(const oatpp::Object<ImageUploadStart>& dto) {
+
+			return _return(controller->createDtoResponse(Status::CODE_200,ImageService::uploadStart(dto)));
 		}
 	};
 
-	ENDPOINT_ASYNC("PUT", "/picture/upload", image_upload,
-		REQUEST(std::shared_ptr<IncomingRequest>,request)) {
+	ENDPOINT_ASYNC("PUT", "/picture/upload", image_upload) {
 		ENDPOINT_ASYNC_INIT(image_upload)
 			Action act()override {
 			auto multipart = std::make_shared<multipart::PartList>(request->getHeaders());
