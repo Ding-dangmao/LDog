@@ -1,0 +1,16 @@
+start_time: 2024-06-01 00:00:00
+end_time: 2024-12-31 23:59:59
+uploader: test_user
+save_path: /var/lib/ldog/images
+image_name: example_image.png
+image_tmp_path: /tmp/images
+image_hash: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+image_size: 20971520
+chunk_num: 10
+chunk_info:
+ c1:
+  size: 10485760
+  hash: abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890
+ c2:
+  size: 10485760
+  hash: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef

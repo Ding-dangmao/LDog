@@ -6,9 +6,9 @@ set(INFORMATION "image")
 
 #可开关宏
 #是否启用oatpp-swagger
-#add_compile_definitions(OATPP_SWAGGER_ENABLE)
+add_compile_definitions(OATPP_SWAGGER_ENABLE)
 #是否启用异步endpoints
-#add_compile_definitions(ASYNC_ENDPOINT)
+add_compile_definitions(ASYNC_ENDPOINT)
 
 
 #配置文件

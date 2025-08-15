@@ -2,11 +2,19 @@
 #define TOOL_H
 
 #include<iostream>
+#include<fstream>
+#include<initializer_list>
 #include<random>
 #include<chrono>
 #include<functional>
+#include<sstream>
+#include"../oatpp/oatpp_include.h"
+//#include<boost/url.hpp>
 
 using namespace std::chrono;
+
+
+#define IMAGE_CHUNK_SIZE 1024*1024*1
 
 class IntRandomGen {
 public:
@@ -35,9 +43,23 @@ public:
 };
 
 namespace ToolP {
-    void splitStr(char*,const char*, std::vector<std::string>&);
-    //void splitStr(char*, const char*, std::string*);
+    inline char buffer[IMAGE_CHUNK_SIZE];
+    void splitStr(char*, const char*, std::vector<std::string>&);
+
+    void decode(oatpp::String &);
+
+    template<typename ...Args>
+    void decodeS(Args& ...args) {
+        (ToolP::decode(args), ...);
+        return;
+    }
+	bool createFile(const std::string& file_name);
+	bool SaveStringToFile(const std::string& file_name, const std::string& data,std::ios_base::openmode mode);
+//	void SaveSringToFile(const std::string& file_name,const std::string& data);
+	bool appendDataFile(const std::initializer_list<std::string> file_list);
+	int splitDataFile(const std::string& file_name,const std::string& save_path);
 }
+
 
 
 

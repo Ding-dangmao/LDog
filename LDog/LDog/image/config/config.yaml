@@ -11,4 +11,9 @@ oatpp:
  port: 8000
  port_range:
   start: 8000
-  end: 8100
+  end: 
+image:
+ save_path: F:/ldog_images/images
+ tmp_path: F:/ldog_images/tmp
+ max_size: 104857600
+ chunk_size: 10485760
