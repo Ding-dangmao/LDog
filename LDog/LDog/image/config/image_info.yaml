@@ -2,10 +2,15 @@ start_time: 2024-06-01 00:00:00
 end_time: 2024-12-31 23:59:59
 uploader: test_user
 save_path: /var/lib/ldog/images
-image_name: example_image.png
+image_name: example_image
+image_type: png
 image_tmp_path: /tmp/images
 image_hash: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+image_head_4k_hash: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcd
+image_tail_4k_hash: 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcd
 image_size: 20971520
+image_width: 1920
+image_height: 1080
 chunk_num: 10
 chunk_info:
  c1:

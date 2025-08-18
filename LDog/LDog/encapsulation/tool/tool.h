@@ -14,8 +14,7 @@
 using namespace std::chrono;
 
 
-#define IMAGE_CHUNK_SIZE 1024*1024*1
-
+constexpr std::size_t IMAGE_CHUNK_SIZE = 1 * 1024 * 1024;  // 1 MiB
 class IntRandomGen {
 public:
     IntRandomGen(int max_val, int min_val) :
@@ -39,6 +38,7 @@ public:
     static steady_clock::time_point steadyClock();
     static high_resolution_clock::time_point highResolutionClock();
 
+	static std::string timeUnix();
     static char* time();
 };
 
@@ -56,7 +56,7 @@ namespace ToolP {
 	bool createFile(const std::string& file_name);
 	bool SaveStringToFile(const std::string& file_name, const std::string& data,std::ios_base::openmode mode);
 //	void SaveSringToFile(const std::string& file_name,const std::string& data);
-	bool appendDataFile(const std::initializer_list<std::string> file_list);
+	bool appendDataFile(const std::vector<std::string> file_list);
 	int splitDataFile(const std::string& file_name,const std::string& save_path);
 }
 

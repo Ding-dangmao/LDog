@@ -17,6 +17,14 @@ high_resolution_clock::time_point Clock::highResolutionClock()
 	return high_resolution_clock::now();
 }
 
+
+
+std::string Clock::timeUnix()
+{
+	auto c = Clock::systemClock();
+	return std::to_string(time_point_cast<std::chrono::seconds>(c).time_since_epoch().count());
+}
+
 /*
 * 获取时间格式为: 星期 月 日 时分秒 年
 */
@@ -29,9 +37,10 @@ char* Clock::time() {
 void ToolP::splitStr(char* str, const char* delim, std::vector<std::string>& vec) {
 	char* tp;
 	tp = strtok(str, delim);
+	short id{};
 	while (tp) {
-		vec.push_back(tp);
-		tp = strtok(str, delim);
+		vec[id++] = tp;
+		tp = strtok(NULL, delim);
 	}
 }
 
@@ -52,16 +61,19 @@ bool ToolP::SaveStringToFile(const std::string& file_name, const std::string& da
 	if (!ofs.is_open()) {
 		createFile(file_name);
 	}
+	else {
+		ofs.close();
+	}
 	std::ofstream offs(file_name, mode);
 	if (offs.is_open()) {
-		offs << data;
+		offs.write(data.data(), static_cast<std::streamsize>(data.size()));
 		offs.close();
 		return true;
 	}
 	return false;
 }
 
-bool ToolP::appendDataFile(const std::initializer_list<std::string> file_list)
+bool ToolP::appendDataFile(const std::vector<std::string> file_list)
 {
 	std::ofstream ofs(*file_list.begin(), std::ios::app | std::ios::binary);
 	if (!ofs.is_open()) {

@@ -28,6 +28,7 @@ include_directories(../encapsulation
 					../encapsulation/include_all
 					../encapsulation/include_all/mysql
 					../encapsulation/include_all/oatpp-1.3.0
+					../encapsulation/include_all/nacos
 					./transmitOBJ/
 )
 
@@ -44,7 +45,7 @@ add_executable (${INFORMATION}
 			   #DAO
 			   "util/imageDAO.cpp"
 			   "util/imageutil.cpp"
-			   
+			   "util/accountDAO.cpp"
 
 )
 
@@ -128,6 +129,12 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(yaml-cpp)   
 
 target_link_libraries(${INFORMATION}  PUBLIC yaml-cpp)
+
+#≈‰÷√boost
+set(Boost_DIR "F:/boost_1_88_0/lib64-msvc-14.3/cmake/Boost-1.88.0")
+find_package(Boost REQUIRED COMPONENTS url json)
+target_link_libraries(${INFORMATION} PUBLIC Boost::url)
+target_link_libraries(${INFORMATION} PUBLIC Boost::json)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ${INFORMATION} PROPERTY CXX_STANDARD 20)

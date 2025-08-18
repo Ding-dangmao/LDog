@@ -17,6 +17,17 @@
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=F:/boost_1_88_0
+
+Boost_JSON_LIBRARY_DEBUG:STRING=F:/boost_1_88_0/lib64-msvc-14.3/libboost_json-vc143-mt-gd-x64-1_88.lib
+
+Boost_JSON_LIBRARY_RELEASE:STRING=F:/boost_1_88_0/lib64-msvc-14.3/libboost_json-vc143-mt-x64-1_88.lib
+
+Boost_URL_LIBRARY_DEBUG:STRING=F:/boost_1_88_0/lib64-msvc-14.3/libboost_url-vc143-mt-gd-x64-1_88.lib
+
+Boost_URL_LIBRARY_RELEASE:STRING=F:/boost_1_88_0/lib64-msvc-14.3/libboost_url-vc143-mt-x64-1_88.lib
+
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe
 
@@ -406,6 +417,21 @@ Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=F:/vcpkg/installed
 
+//The directory containing a CMake configuration file for boost_container.
+boost_container_DIR:PATH=F:/boost_1_88_0/lib64-msvc-14.3/cmake/boost_container-1.88.0
+
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=F:/boost_1_88_0/lib64-msvc-14.3/cmake/boost_headers-1.88.0
+
+//The directory containing a CMake configuration file for boost_json.
+boost_json_DIR:PATH=F:/boost_1_88_0/lib64-msvc-14.3/cmake/boost_json-1.88.0
+
+//The directory containing a CMake configuration file for boost_system.
+boost_system_DIR:PATH=F:/boost_1_88_0/lib64-msvc-14.3/cmake/boost_system-1.88.0
+
+//The directory containing a CMake configuration file for boost_url.
+boost_url_DIR:PATH=F:/boost_1_88_0/lib64-msvc-14.3/cmake/boost_url-1.88.0
+
 //The directory containing a CMake configuration file for mysql.
 mysql_DIR:PATH=F:/LDog/LDog/LDog/encapsulation/package
 
@@ -603,6 +629,8 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[F:/boost_1_88_0/lib64-msvc-14.3/cmake/Boost-1.88.0/BoostConfig.cmake][cfound components: url json ][v1.88.0()]
 //ADVANCED property for variable: GITCOMMAND
 GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -631,4 +659,14 @@ Z_VCPKG_POWERSHELL_PATH:INTERNAL=C:/Windows/System32/WindowsPowerShell/v1.0/powe
 Z_VCPKG_ROOT_DIR:INTERNAL=F:/vcpkg
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=F:/LDog/LDog/out/install/x64-Debug
+//ADVANCED property for variable: boost_container_DIR
+boost_container_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_json_DIR
+boost_json_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_system_DIR
+boost_system_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_url_DIR
+boost_url_DIR-ADVANCED:INTERNAL=1
 

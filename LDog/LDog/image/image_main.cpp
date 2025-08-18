@@ -10,6 +10,11 @@ using namespace oatpp::network;
 using namespace oatpp::web;
 using namespace oatpp::parser;
 
+namespace __class {
+	const oatpp::ClassId ImageGroupInfoClass::CLASS_ID("custom-types::image_group_info");
+	const oatpp::ClassId ImageInfoClass::CLASS_ID("custom-types::image_upload_info");
+}
+
 void run() {
 	for (int i = 8000; i <= 8100; i++) {
 		try {

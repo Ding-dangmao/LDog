@@ -10,5 +10,6 @@
 #include"oatpp/web/mime/multipart/InMemoryDataProvider.hpp"
 #include"oatpp/web/mime/multipart/FileProvider.hpp"
 #include "oatpp/web/mime/multipart/Reader.hpp"
+#include "oatpp/web/mime/multipart/PartReader.hpp"
 #include "oatpp/web/mime/multipart/PartList.hpp"
 #include "oatpp/web/protocol/http/outgoing/StreamingBody.hpp"

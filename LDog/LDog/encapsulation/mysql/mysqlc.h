@@ -56,7 +56,8 @@ public:
 	template<typename... Args>
 	guard_ResultSet executePreQuery(c_ref_string statement, Args... args);
 
-private:
+//private:
+public:
 	template<typename T>
 	void padParameters(guard_pre& prestatement, int idx, T parameter)noexcept;
 	//Registration
@@ -188,6 +189,10 @@ inline void MysqlP::padParameters(guard_pre& prestatement, int idx, T parameter)
 			prestatement.getPreStmt()->setString(idx, parameter);
 		}
 		if constexpr (std::is_same_v<double, T>)
+		{
+			prestatement.getPreStmt()->setDouble(idx, parameter);
+		}
+		if constexpr (std::is_same_v<const std::string&, T>)
 		{
 			prestatement.getPreStmt()->setDouble(idx, parameter);
 		}

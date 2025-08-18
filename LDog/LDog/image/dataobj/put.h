@@ -20,7 +20,14 @@ namespace LDog {
 }
 
 
+class ImageUpload :public LDog::BaseDTOPOST {
+	DTO_INIT(ImageUpload, BaseDTOPOST)
 
+	DTO_FIELD(String, image_access_token);
+	DTO_FIELD(String, chunk_number);
+	DTO_FIELD(String, hash);
+	DTO_FIELD(String, image_file);
+};
 
 
 #include OATPP_CODEGEN_END(DTO)

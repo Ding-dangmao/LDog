@@ -30,13 +30,18 @@ class ImageUploadStartReturn :public LDog::BaseDTOR {
 class ImageUploadReturn:public LDog::BaseDTOR {
 	DTO_INIT(ImageUploadReturn, BaseDTOR)
 
-
 };
 
 class ImageCompleteReturn :public LDog::BaseDTOR {
 	DTO_INIT(ImageCompleteReturn, BaseDTOR)
+
 	DTO_FIELD(String, url_);
 };
+
+class ImageGetReturn :public LDog::BaseDTOR {
+	DTO_INIT(ImageGetReturn, BaseDTOR)
+};
+
 
 
 #include OATPP_CODEGEN_END(DTO)

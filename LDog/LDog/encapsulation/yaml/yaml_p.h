@@ -53,6 +53,8 @@ public:
 	explicit YamlP(const std::string& file_name);
 
 	void loadFile(const std::string& file_name);
+
+	void loadJsonString(const std::string& json_string);
 private:
 	//Òþ²Ø½Ó¿Ú
 	std::vector<std::string> split(const std::string& str)const;

@@ -21,18 +21,19 @@ class ImageUploadStart :public LDog::BaseDTOPOST {
 	DTO_INIT(ImageUploadStart, BaseDTOPOST)
 
 	DTO_FIELD(String, upload_info_json);
+	DTO_FIELD(String, image_group);
+	DTO_FIELD(String, FILE_SHA256);
+	DTO_FIELD(String, FILE_HEAD_4k_SHA256);
+	DTO_FIELD(String, FILE_TAIL_4k_SHA256);
 
 };
 
 class ImageUploadComplete :public LDog::BaseDTOPOST {
 	DTO_INIT(ImageUploadComplete, BaseDTOPOST)
 
+	DTO_FIELD(String, image_access_token);
 };
 
-class ImageUpload:public LDog::BaseDTOPOST {
-	DTO_INIT(ImageUpload, BaseDTOPOST)
-
-};
 
 
 

@@ -19,6 +19,16 @@ void YamlP::loadFile(const std::string& file_name)
 {
 	this->config = YAML::LoadFile(file_name);
 }
+void YamlP::loadJsonString(const std::string& json_string)
+{
+	this->config = YAML::Load(json_string);
+	if (this->config.IsNull()) {
+		std::cerr << "YamlP::loadJsonString: Failed to load JSON string." << std::endl;
+	}
+	else {
+		std::cout << "YamlP::loadJsonString: Successfully loaded JSON string." << std::endl;
+	}
+}
 /**
 *
 *

@@ -1,6 +1,8 @@
 #ifndef BASE_DAO_H
 #define BASE_DAO_H
 
+#include"../encapsulation/tool/tool.h"
+
 template<typename T>
 concept DAO = requires(T a) {
 	a.getMysql();
@@ -24,7 +26,6 @@ public:
 	//刷新时间
 	inline void refreshTime() {
 		ToolP::splitStr(Clock::time(), " ", this->time_str_);
-		//this->time_=this->time_str_[]
 		if (this->time_str_[1] == "Jan")
 			this->time_ = this->time_str_[4].substr(0, this->time_str_[4].find("\n")) + "-" + "1" + "-" + this->time_str_[2] + " " + this->time_str_[3];
 		else if (this->time_str_[1] == "Feb")
@@ -51,7 +52,7 @@ public:
 			this->time_ = this->time_str_[4].substr(0, this->time_str_[4].find("\n")) + "-" + "12" + "-" + this->time_str_[2] + " " + this->time_str_[3];
 		else
 			this->time_ = this->time_str_[4].substr(0, this->time_str_[4].find("\n")) + "-" + "1" + "-" + this->time_str_[2] + " " + this->time_str_[3];
-}
+	}
 public:
 	//存储时间,每次取用前使用refreshTime函数进行刷新
 	std::vector<std::string> time_str_;
