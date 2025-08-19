@@ -19,7 +19,7 @@ class IntRandomGen {
 public:
     IntRandomGen(int max_val, int min_val) :
         p(max_val, min_val),
-        f(std::bind(std::uniform_int_distribution<>(p), std::default_random_engine{ static_cast<unsigned int>(time(0)) }))
+        f(std::bind(std::uniform_int_distribution<>(p), std::default_random_engine{ std::random_device{}() }))
     {
     }
     int operator()() {

@@ -67,3 +67,9 @@ create table image_image_group_relevancy
 - temp: 临时存储上传图片
 
 ![image-20250818143830576.png](https://www.ddcat.club/picture/async?image_key=M0OB870s645JzJ5l9857j4S79x7uHEn9HG8cdSGkJ6O7%7BJ4a2tSy0xQ2ax20U47h)
+
+## 目前已有功能
+
+- 上传图片
+- 获取图片
+- 获取图片组

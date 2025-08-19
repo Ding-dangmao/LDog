@@ -24,6 +24,7 @@ add_compile_definitions(IMAGE_TEMP_FILE_PATH="F:/ldog_images/temp")
 #定义文件上传信息存储目录
 add_compile_definitions(IMAGE_UPLOAD_INFO_PATH="F:/ldog_images/image_info")
 
+
 include_directories(../encapsulation
 					../encapsulation/include_all
 					../encapsulation/include_all/mysql

@@ -42,6 +42,12 @@ class ImageGetReturn :public LDog::BaseDTOR {
 	DTO_INIT(ImageGetReturn, BaseDTOR)
 };
 
+class ImageBedInfoReturn :public LDog::BaseDTOR {
+	DTO_INIT(ImageBedInfoReturn, BaseDTOR)
+
+	//DTO_FIELD(String,)
+};
+
 
 
 #include OATPP_CODEGEN_END(DTO)

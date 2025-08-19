@@ -32,6 +32,7 @@ ImageUploadStartReturn::Wrapper ImageService::uploadStart(const ImageUploadStart
 		// 处理命中情况
 		if(!image_dao.isExistGroup(image_group,id))
 			image_dao.insertImageGroup(id, image_group);
+		std::cout << file_sha256 << ' ' << file_head_4k_sha256 << ' ' << file_tail_4k_sha256 << std::endl;
 		//获取group_id
 		int group_id = image_dao.getImageGroupId(image_group, id);
 		//插入关联

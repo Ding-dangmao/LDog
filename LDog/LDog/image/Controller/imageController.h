@@ -164,6 +164,13 @@ public:
 		}
 	};
 
+	//ENDPOINT_ASYNC("GET", "/picture/imagebedinfo", image_bed_info) {
+	//	ENDPOINT_ASYNC_INIT(image_bed_info)
+	//	Action act()override {
+
+	//	}
+	//};
+
 private:
 };
 

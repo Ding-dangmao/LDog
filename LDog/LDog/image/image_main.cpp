@@ -6,6 +6,9 @@
 #include"Controller/imageController.h"
 
 
+#define LDOG_VERSION "1.0v"
+#define COUNT_ENDL(str,message) std::cout<<str<<": "<<message<<std::endl;
+
 using namespace oatpp::network;
 using namespace oatpp::web;
 using namespace oatpp::parser;
@@ -33,6 +36,11 @@ void run() {
 
 
 int main() {
+	std::cout << "==========================================================" << std::endl;
+	std::cout << "欢迎使用LDOG图床" << std::endl;
+	std::cout << "当前版本为: " << LDOG_VERSION << std::endl;
+	COUNT_ENDL("制作者","ddcat")
+	std::cout << "==========================================================" << std::endl;
 	OATPP_INIT_P(run)
-		return 0;
+	return 0;
 }
