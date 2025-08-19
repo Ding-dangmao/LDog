@@ -9,13 +9,16 @@ set(INFORMATION "image")
 add_compile_definitions(OATPP_SWAGGER_ENABLE)
 #是否启用异步endpoints
 add_compile_definitions(ASYNC_ENDPOINT)
-
+#是否启用测试功能
+#add_compile_definitions(TEST_ON)
 
 #配置文件
 #此为oatpp-swagger所需文件路径
 add_compile_definitions(OATPP_SWAGGER_RES_PATH="${CMAKE_CURRENT_SOURCE_DIR}/../encapsulation")
 #此为yaml所需yaml文件宏,若注释将导致yaml工具类报错,若不开启yaml配置则无用
 add_compile_definitions(YAML_CONFIG_FILE_CONNECTION="${CMAKE_CURRENT_SOURCE_DIR}/config/config.yaml")
+
+
 
 #定义图片存储目录
 add_compile_definitions(IMAGE_FILE_PATH="F:/ldog_images/images")

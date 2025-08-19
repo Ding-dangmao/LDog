@@ -4,6 +4,11 @@
 
 ImageUploadStartReturn::Wrapper ImageService::uploadStart(const ImageUploadStart::Wrapper dto)
 {
+	//清理无效缓存
+	if (!ImageService::times_)
+		ImageUtil::clearInvaildCache();
+	ImageService::times_=(ImageService::times_+1)%33;
+
 	ImageDAO image_dao;
 	AccountDAO account_dao(image_dao);
 
@@ -51,8 +56,6 @@ ImageUploadStartReturn::Wrapper ImageService::uploadStart(const ImageUploadStart
 		std::string temp_folder_name = nickname + Clock::timeUnix();
 		//映射
 		ImageService::imageAccessTokenMap[image_access_token] = temp_folder_name;
-		//映射2
-		ImageService::imageAccessTokenMap2[image_access_token] = 0;
 		//创建临时文件夹
 		if (!ImageUtil::imageUploadfolderCreate(temp_folder_name)) {
 			dto_r->is_success_ = false;
@@ -88,6 +91,11 @@ ImageUploadReturn::Wrapper ImageService::uploadImage(const ImageUpload::Wrapper 
 	if(ImageService::imageAccessTokenMap.find(image_access_token) == ImageService::imageAccessTokenMap.end()) {
 		dto_r->is_success_ = false;
 		dto_r->message_ = "Invalid image access token.";
+		return dto_r;
+	}
+	if (!ImageService::imageAccessTokenMap.contains(image_access_token)) {
+		dto_r->is_success_ = false;
+		dto_r->message_ = "Invalid image accesstoken";
 		return dto_r;
 	}
 	std::string temp_folder_name = ImageService::imageAccessTokenMap[image_access_token];
@@ -175,8 +183,13 @@ ImageCompleteReturn::Wrapper ImageService::uploadComplete(const ImageUploadCompl
 		dto_r->message_ = "Invalid image access token.";
 		return dto_r;
 	}
+	if (!ImageService::imageAccessTokenMap.contains(image_access_token)) {
+		dto_r->is_success_ = false;
+		dto_r->message_ = "Invalid image accesstoken";
+		return dto_r;
+	}
 	std::string temp_folder_name = ImageService::imageAccessTokenMap[image_access_token];
-
+	ImageService::imageAccessTokenMap.erase(image_access_token);
 	// Check if the user exists
 	if (!account_dao.isExistAccount(nickname)) {
 		dto_r->is_success_ = false;
@@ -224,5 +237,4 @@ ImageCompleteReturn::Wrapper ImageService::uploadComplete(const ImageUploadCompl
 
 
 std::unordered_map<std::string, std::string> ImageService::imageAccessTokenMap;
-std::unordered_map<std::string, short> ImageService::imageAccessTokenMap2;
-
+unsigned short ImageService::times_{0};

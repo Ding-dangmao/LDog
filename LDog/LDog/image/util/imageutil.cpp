@@ -1,4 +1,5 @@
 #include "imageutil.h"
+#include "imageutil.h"
 #include"imageutil.h"
 
 
@@ -37,6 +38,25 @@ bool ImageUtil::imageUploadTempClear(const std::string& folder_name)
 	using namespace std::filesystem;
 	remove(std::string(IMAGE_UPLOAD_INFO_PATH) + "/" + folder_name);
 	remove_all(std::string(IMAGE_TEMP_FILE_PATH) + "/" + folder_name);
+	return true;
+}
+
+bool ImageUtil::clearInvaildCache()
+{
+	using namespace std::filesystem;
+#ifdef TEST_ON
+	for (auto const& dir_entry : directory_iterator{ IMAGE_UPLOAD_INFO_PATH }) {
+		std::string floder_name = dir_entry.path().filename().string();
+		std::cout << floder_name << std::endl;
+		YamlP yaml(std::string(IMAGE_UPLOAD_INFO_PATH) + "/" + floder_name);
+		unsigned int start_time = std::atoi(yaml["start_time"].c_str());
+		unsigned int now_time = std::atoi(Clock::timeUnix().c_str());
+		if ((now_time - start_time) < 3600) {
+			continue;
+		}
+		imageUploadTempClear(floder_name);
+	}
+#endif
 	return true;
 }
 

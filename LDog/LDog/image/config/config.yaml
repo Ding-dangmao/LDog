@@ -14,7 +14,9 @@ oatpp:
   start: 8000
   end: 
 image:
+#大小单位为字节/byte,时间单位为秒/s
  save_path: F:/ldog_images/images
  tmp_path: F:/ldog_images/tmp
+ single_event_duration: 3600
  max_size: 104857600
  chunk_size: 10485760

@@ -18,7 +18,7 @@ public:
 	static ImageListReturn::Wrapper getImageInfo(const image_info_get::Wrapper dto);
 	//access_token -> name+unix_time
 	static std::unordered_map<std::string, std::string> imageAccessTokenMap;
-	static std::unordered_map<std::string, short> imageAccessTokenMap2;
+	static unsigned short times_;
 };
 
 
