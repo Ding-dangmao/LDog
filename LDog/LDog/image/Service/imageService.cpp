@@ -53,7 +53,7 @@ ImageUploadStartReturn::Wrapper ImageService::uploadStart(const ImageUploadStart
 		//生成access_token
 		std::string image_access_token = ImageUtil::imageAccessTokenGenerate();
 		//临时名称
-		std::string temp_folder_name = nickname + Clock::timeUnix();
+		std::string temp_folder_name = Clock::timeUnix();
 		//映射
 		ImageService::imageAccessTokenMap[image_access_token] = temp_folder_name;
 		//创建临时文件夹
