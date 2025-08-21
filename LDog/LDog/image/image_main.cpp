@@ -6,7 +6,7 @@
 #include"Controller/imageController.h"
 
 
-#define LDOG_VERSION "1.0v"
+#define LDOG_VERSION "1.0.2v"
 #define COUNT_ENDL(str,message) std::cout<<str<<": "<<message<<std::endl;
 
 using namespace oatpp::network;

@@ -213,7 +213,20 @@ ImageCompleteReturn::Wrapper ImageService::uploadComplete(const ImageUploadCompl
 	signed image_width = std::atoi(yaml["image_width"].c_str());
 	signed image_height = std::atoi(yaml["image_height"].c_str());
 	//c_ref_str new_image_name = nickname + Clock::timeUnix() + "." + image_type;
-	std::string image_key = AccessToken::keyGeneratorRT(64);
+	int tt{};
+	std::string image_key;
+	while (1) {
+		image_key = AccessToken::keyGeneratorRT(64);
+		if (!image_dao.isExistImageKey(image_key)) {
+			break;
+		}
+		tt++;
+		if (tt == 10) {
+			dto_r->is_success_ = false;
+			dto_r->message_ = "Error image_key generator!";
+			return dto_r;
+		}
+	}
 	image_key = boost::urls::encode(image_key, boost::urls::unreserved_chars);
 	c_ref_str new_image_name =image_key +"."+image_type;
 	//复制数据到存储文件

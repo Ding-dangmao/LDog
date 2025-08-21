@@ -2,6 +2,7 @@
 #include "imageDAO.h"
 #include "imageDAO.h"
 #include "imageDAO.h"
+#include "imageDAO.h"
 #include"imageDAO.h"
 
 
@@ -53,7 +54,16 @@ bool ImageDAO::isExistImage(int user_id, c_ref_string a_sha256, c_ref_string h_s
 	c_ref_string sql_statement = "select COUNT(*) from image where user_id=? AND JSON_UNQUOTE(JSON_EXTRACT(hash_sha256, '$.a')) = ? AND JSON_UNQUOTE(JSON_EXTRACT(hash_sha256, '$.h')) = ? AND JSON_UNQUOTE(JSON_EXTRACT(hash_sha256, '$.t')) = ?";
 	MysqlP::guard_ResultSet result_set = this->mysql_->executePreQuery(sql_statement, user_id,a_sha256,h_sha256,t_sha256);
 	if (result_set.get() && result_set.get()->next()) {
-		std::cout << result_set.get()->getBoolean(1) << std::endl;
+		return result_set.get()->getBoolean(1);
+	}
+	return false;
+}
+
+bool ImageDAO::isExistImageKey(c_ref_string image_key)
+{
+	c_ref_string sql_statement = "select COUNT(*) from image where image_key=?";
+	MysqlP::guard_ResultSet result_set = this->mysql_->executePreQuery(sql_statement,image_key);
+	if (result_set.get() && result_set.get()->next()) {
 		return result_set.get()->getBoolean(1);
 	}
 	return false;

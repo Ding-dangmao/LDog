@@ -51,6 +51,7 @@ public:
 
 	bool isExistGroup(c_ref_string group_name,int user_id);
 	bool isExistImage(int user_id,c_ref_string a_sha256, c_ref_string h_sha256, c_ref_string t_sha256);
+	bool isExistImageKey(c_ref_string image_key);
 
 	std::string getImageKeyByImageId(int image_id);
 	std::string getImageURLByImageKey(c_ref_string image_key);
