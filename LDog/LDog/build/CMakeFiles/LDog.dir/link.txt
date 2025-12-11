@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/LDog.dir/link.d CMakeFiles/LDog.dir/LDog.cpp.o -o LDog

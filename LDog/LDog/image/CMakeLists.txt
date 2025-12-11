@@ -4,28 +4,28 @@ message(${SOURCES})
 
 set(INFORMATION "image")
 
-#¿É¿ª¹Øºê
-#ÊÇ·ñÆôÓÃoatpp-swagger
+#ï¿½É¿ï¿½ï¿½Øºï¿½
+#ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½oatpp-swagger
 add_compile_definitions(OATPP_SWAGGER_ENABLE)
-#ÊÇ·ñÆôÓÃÒì²½endpoints
+#ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì²½endpoints
 add_compile_definitions(ASYNC_ENDPOINT)
-#ÊÇ·ñÆôÓÃ²âÊÔ¹¦ÄÜ
+#ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ã²ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½
 #add_compile_definitions(TEST_ON)
 
-#ÅäÖÃÎÄ¼þ
-#´ËÎªoatpp-swaggerËùÐèÎÄ¼þÂ·¾¶
+#ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½
+#ï¿½ï¿½Îªoatpp-swaggerï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Â·ï¿½ï¿½
 add_compile_definitions(OATPP_SWAGGER_RES_PATH="${CMAKE_CURRENT_SOURCE_DIR}/../encapsulation")
-#´ËÎªyamlËùÐèyamlÎÄ¼þºê,Èô×¢ÊÍ½«µ¼ÖÂyaml¹¤¾ßÀà±¨´í,Èô²»¿ªÆôyamlÅäÖÃÔòÎÞÓÃ
+#ï¿½ï¿½Îªyamlï¿½ï¿½ï¿½ï¿½yamlï¿½Ä¼ï¿½ï¿½ï¿½,ï¿½ï¿½×¢ï¿½Í½ï¿½ï¿½ï¿½ï¿½ï¿½yamlï¿½ï¿½ï¿½ï¿½ï¿½à±¨ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½yamlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 add_compile_definitions(YAML_CONFIG_FILE_CONNECTION="${CMAKE_CURRENT_SOURCE_DIR}/config/config.yaml")
 
 
 
-#¶¨ÒåÍ¼Æ¬´æ´¢Ä¿Â¼
-add_compile_definitions(IMAGE_FILE_PATH="F:/ldog_images/images")
-#¶¨ÒåÍ¼Æ¬ÁÙÊ±´æ´¢Ä¿Â¼
-add_compile_definitions(IMAGE_TEMP_FILE_PATH="F:/ldog_images/temp")
-#¶¨ÒåÎÄ¼þÉÏ´«ÐÅÏ¢´æ´¢Ä¿Â¼
-add_compile_definitions(IMAGE_UPLOAD_INFO_PATH="F:/ldog_images/image_info")
+#ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½æ´¢Ä¿Â¼
+add_compile_definitions(IMAGE_FILE_PATH="/home/ddcat_service/service_data/ldog_images/images")
+#ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ê±ï¿½æ´¢Ä¿Â¼
+add_compile_definitions(IMAGE_TEMP_FILE_PATH="/home/ddcat_service/service_data/ldog_images/temp")
+#ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ï´ï¿½ï¿½ï¿½Ï¢ï¿½æ´¢Ä¿Â¼
+add_compile_definitions(IMAGE_UPLOAD_INFO_PATH="/home/ddcat_service/service_data/ldog_images/image_info")
 
 
 include_directories(../encapsulation
@@ -38,7 +38,7 @@ include_directories(../encapsulation
 
 
 
-# ½«Ô´´úÂëÌí¼Óµ½´ËÏîÄ¿µÄ¿ÉÖ´ÐÐÎÄ¼þ¡£
+# ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½Ä¿ï¿½Ö´ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
 add_executable (${INFORMATION}
 			   "image_main.cpp"
 			   ${SOURCES}
@@ -53,7 +53,7 @@ add_executable (${INFORMATION}
 
 )
 
-#Æ½Ì¨ÏÞÖÆ
+#Æ½Ì¨ï¿½ï¿½ï¿½ï¿½
 if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
 	add_compile_definitions(Windows)
 endif()
@@ -78,7 +78,7 @@ endif()
 
 #Linux
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
-#ÅäÖÃnacos
+#ï¿½ï¿½ï¿½ï¿½nacos
 find_package(nacos REQUIRED HINT ${CMAKE_CURRENT_SOURCE_DIR}/package)
 if(NOT nacos_FOUND)
 	message("not found nacos")
@@ -89,7 +89,7 @@ target_link_libraries(${INFORMATION} PUBLIC nacos)
 endif()
 
 
-#ÅäÖÃmysql
+#ï¿½ï¿½ï¿½ï¿½mysql
 find_package(mysql REQUIRED HINT ${CMAKE_CURRENT_SOURCE_DIR}/../encapsulation/package)
 if(NOT mysql_FOUND)
 	message("not found mysql")
@@ -102,7 +102,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
 endif()
 
 
-#ÅäÖÃoatpp
+#ï¿½ï¿½ï¿½ï¿½oatpp
 find_package(oatpp REQUIRED HINT ${CMAKE_CURRENT_SOURCE_DIR}/../encapsulation/package)
 if(NOT oatpp_FOUND)
 	message("not found oatpp")
@@ -111,7 +111,7 @@ else()
 endif()
 target_link_libraries(${INFORMATION} PUBLIC oatpp)
 
-#ÅäÖÃoatpp-swagger
+#ï¿½ï¿½ï¿½ï¿½oatpp-swagger
 
 find_package(oatpp_swagger REQUIRED HINT ${CMAKE_CURRENT_SOURCE_DIR}/../encapsulation/package)
 if(NOT oatpp_swagger_FOUND)
@@ -122,21 +122,22 @@ endif()
 target_link_libraries(${INFORMATION} PUBLIC oatpp_swagger)
 
 
-#ÅäÖÃyaml 
+#ï¿½ï¿½ï¿½ï¿½yaml 
 include(FetchContent)
 
 FetchContent_Declare(
 	yaml-cpp
-	GIT_REPOSITORY https://github.com/jbeder/yaml-cpp.git  
+	GIT_REPOSITORY https://bgithub.xyz/jbeder/yaml-cpp.git  
 	GIT_TAG yaml-cpp-0.7.0   
 )
 FetchContent_MakeAvailable(yaml-cpp)   
 
 target_link_libraries(${INFORMATION}  PUBLIC yaml-cpp)
 
-#ÅäÖÃboost
-set(Boost_DIR "F:/boost_1_88_0/lib64-msvc-14.3/cmake/Boost-1.88.0")
+#ï¿½ï¿½ï¿½ï¿½boost
+set(Boost_DIR "/home/tool/boost_1_89_0/stage/lib/cmake/Boost-1.89.0")
 find_package(Boost REQUIRED COMPONENTS url json)
+message("found it boost")
 target_link_libraries(${INFORMATION} PUBLIC Boost::url)
 target_link_libraries(${INFORMATION} PUBLIC Boost::json)
 

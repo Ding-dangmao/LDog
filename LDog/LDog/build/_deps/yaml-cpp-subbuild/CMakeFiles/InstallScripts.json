@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ddcat_service/LDog/LDog/LDog/build/_deps/yaml-cpp-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

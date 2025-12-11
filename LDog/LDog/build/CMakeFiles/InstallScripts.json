@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ddcat_service/LDog/LDog/LDog/build/cmake_install.cmake",
+		"/home/ddcat_service/LDog/LDog/LDog/build/encapsulation/cmake_install.cmake",
+		"/home/ddcat_service/LDog/LDog/LDog/build/image/cmake_install.cmake",
+		"/home/ddcat_service/LDog/LDog/LDog/build/_deps/yaml-cpp-build/cmake_install.cmake",
+		"/home/ddcat_service/LDog/LDog/LDog/build/_deps/yaml-cpp-build/util/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
